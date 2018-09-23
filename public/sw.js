@@ -1,7 +1,7 @@
 var CACHE_NAME = 'afv-cache-v1';
 //Adicione aqui os arquivos de cache
 var urlsToCache = [
-  '/',
+  '/public/',
   'src/css/app.css'
 ];
 
