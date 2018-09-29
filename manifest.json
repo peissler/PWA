@@ -2,7 +2,7 @@
     "name" : "AFV - ADV Tecnologia",
     "short_name": "AFV",
     "start_url": "./index.html",
-    "scope": "\/public",
+    "scope": ".",
     "display": "standalone",
     "background_color":"#fff",
     "theme_color":"#3f51b5",
