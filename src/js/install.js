@@ -26,7 +26,6 @@ installButton.addEventListener('click', function(e) {
     }
   });
 
-
 window.addEventListener('beforeinstallprompt', function(e) {
     // beforeinstallprompt Event fired
   
