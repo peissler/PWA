@@ -22,6 +22,7 @@ window.addEventListener('beforeinstallprompt', function(e) {
   button = document.getElementById('install');
   
   button.addEventListener('click', function() {
+    console.log('show');
     if(deferredPrompt !== undefined) {
       // The user has had a postive interaction with our app and Chrome
       // has tried to prompt previously, so let's show the prompt.
