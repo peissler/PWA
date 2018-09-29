@@ -1,5 +1,5 @@
 var deferredPrompt;
-var button;
+var installButton = document.getElementById('install');
 
 window.addEventListener('beforeinstallprompt', function(e) {
     // beforeinstallprompt Event fired
@@ -19,9 +19,9 @@ window.addEventListener('beforeinstallprompt', function(e) {
     });
   });
 
-  button = document.getElementById('install');
+ 
   
-  button.addEventListener('click', function() {
+  installButton.addEventListener('click', function() {
     console.log('show');
     if(deferredPrompt !== undefined) {
       // The user has had a postive interaction with our app and Chrome
