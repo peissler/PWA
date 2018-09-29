@@ -20,7 +20,7 @@ button.addEventListener('click', function (e) {
 });
 
 
-var installButton = document.getElementById('install');
+var installButton = document.getElementById('botaoinstalar');
 
 installButton.addEventListener('click', function(e) {
     console.log('show');
