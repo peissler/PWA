@@ -30,7 +30,7 @@ window.addEventListener('beforeinstallprompt', function(e) {
   });
  
   
-  installButton.addEventListener('click', function() {
+  installButton.addEventListener('click', function(e) {
     console.log('show');
     if(deferredPrompt !== undefined) {
       // The user has had a postive interaction with our app and Chrome
