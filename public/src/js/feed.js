@@ -1,6 +1,6 @@
 function randomNotification() {
     var notifTitle = 'Bem vindo!';
-    var notifImg = 'data/img/' + games[randomItem].slug + '.jpg';
+    var notifImg = './public/src/image/metal.png';
     var options = {
         body: 'Obrigado por assinar o feed',
         icon: notifImg
