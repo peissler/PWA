@@ -4,10 +4,10 @@ function randomNotification() {
     var options = {
         body: 'Obrigado por assinar o feed',
         icon: notifImg
-    }
+    };
     var notif = new Notification(notifTitle, options);
     
-};
+}
 
 
 var button = document.getElementById('notifications');
